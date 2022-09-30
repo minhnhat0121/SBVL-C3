@@ -1,0 +1,14 @@
+.nav{
+   &-logoText{
+      padding-left: 10px !important;
+      color: #003566 !important;
+      font-weight: bold !important;
+   }
+   &-linkText{
+      padding: 0 12px !important;
+      &:focus{
+         font-weight: bold !important;
+         color: #0077b6;
+      }
+   }
+}

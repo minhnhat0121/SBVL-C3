@@ -1,0 +1,83 @@
+.image-questions1 {
+   width: 70%;
+}
+
+.result {
+   margin-top: 20px;
+   border-radius: 10px;
+   padding: 10px;
+   opacity: 0;
+   display: none;
+   visibility: hidden;
+   transition: 0.5s linear;
+   border: 5px solid #bde0fe;
+
+   &-title {
+      color: #1d3557;
+   }
+
+   p:last-child {
+      margin-top: -10px;
+   }
+}
+
+.button {
+   background-color: #8ecae6 !important;
+   border: none !important;
+   margin-top: 20px;
+
+   &:hover {
+      transition: 0.2s linear;
+      transform: scale(1.2);
+      background-color: #ffafcc !important;
+      border: none;
+   }
+}
+
+.result-bold {
+   padding-bottom: 5px;
+}
+
+.active {
+   display: block;
+   opacity: 1;
+   visibility: visible;
+}
+
+.icon {
+   color: #57cc99;
+}
+
+.fade-loading {
+   width: 20px;
+   height: 20px;
+   background-color: #f72585;
+   border-radius: 100rem;
+   margin: 10px auto;
+   position: relative;
+}
+
+.fade-loading:before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border-radius: inherit;
+   background-color: inherit;
+   animation: fade 1s forwards infinite linear;
+}
+
+@keyframes fade {
+   to {
+      transform: scale(2.2);
+      opacity: 0;
+   }
+}
+.Modal-title{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   color: #457b9d;
+}

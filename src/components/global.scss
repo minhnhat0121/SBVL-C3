@@ -1,0 +1,12 @@
+.modal{
+   display: flex !important;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100% !important;
+   &-content{
+      margin-left: -200px !important;
+      width: 900px !important;
+      min-height: 100px !important;
+   }
+}
